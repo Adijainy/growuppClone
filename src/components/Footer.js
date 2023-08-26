@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="mx-28 bg-gradient-to-b from-[#f4d7ae] to-white rounded-2xl shadow-[#27262466] drop-shadow-2xl shadow-lg mt-14 mb-4 px-4 py-1 text-[#6d4078]">
       <ul className="flex font-bold ">
-        <li className="px-32 border-r border-[#6d4078] justify-center">
+        <li className="px-32 border-r border-[#6d4078] justify-center cursor-pointer">
           <img
             className="h-7 ml-6"
             src="https://growupp.in/MAIN/growupp_official/assets/img/discover.png"
@@ -12,7 +12,7 @@ const Footer = () => {
           />
           DISCOVER
         </li>
-        <li className="px-32 border-r border-[#6d4078]">
+        <li className="px-32 border-r border-[#6d4078] cursor-pointer">
           <img
             className="h-7 ml-3"
             src="https://growupp.in/MAIN/growupp_official/assets/img/book.png"
@@ -20,7 +20,7 @@ const Footer = () => {
           />
           LEARN
         </li>
-        <li className="px-32 border-r border-[#6d4078]">
+        <li className="px-32 border-r border-[#6d4078] cursor-pointer">
           <img
             className="h-7 ml-2"
             src="https://growupp.in/MAIN/growupp_official/assets/img/clipboard.png"
@@ -28,7 +28,7 @@ const Footer = () => {
           />
           APPLY
         </li>
-        <li className="px-32">
+        <li className="px-32 cursor-pointer">
           <img
             className="h-7 ml-2"
             src="https://growupp.in/MAIN/growupp_official/assets/img/growing.png"

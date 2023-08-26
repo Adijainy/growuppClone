@@ -9,16 +9,16 @@ const Navbar = () => {
         alt="logo img"
       ></img>
       <ul className="flex">
-        <li className="border-r border-gray-200 mx-1 px-6 py-2 hover:font-bold">
+        <li className="border-r border-gray-200 mx-1 px-6 py-2 hover:font-bold cursor-pointer">
           HOME
         </li>
-        <li className="border-r border-gray-200 mx-1 px-6 py-2 hover:font-bold">
+        <li className="border-r border-gray-200 mx-1 px-6 py-2 hover:font-bold cursor-pointer">
           HOW WE WORK
         </li>
-        <li className="border-r border-gray-200 mx-1 px-6 py-2 hover:font-bold">
+        <li className="border-r border-gray-200 mx-1 px-6 py-2 hover:font-bold cursor-pointer">
           ABOUT
         </li>
-        <li className="border-r border-gray-200 mx-1 px-6 py-2 hover:font-bold">
+        <li className="border-r border-gray-200 mx-1 px-6 py-2 hover:font-bold cursor-pointer">
           CONTACT
         </li>
         <li className="px-6 mx-1">
